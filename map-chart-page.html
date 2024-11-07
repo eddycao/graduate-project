@@ -1,0 +1,59 @@
+<html>
+<header>
+    <link rel="stylesheet" type="text/css" href="map.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
+</header>
+<body>
+
+
+
+<!--US2.1 map map map map-->
+<div class="container">
+    <h2>Choropleth Map</h2>
+                              
+
+    <div style="margin-top: 100px" >
+        <label for="year-input">Select Year:</label>
+        <select id="year-input">
+            <!--  JavaScript autofill -->
+        </select>
+        <label for="category-input">Select Category:</label>
+        <select id="category-input">
+            <!-- JavaScript autofill -->
+        </select>
+        <button style="height: 40px" onclick="loadMap()">Load Map</button>
+    </div>
+    <div id="map" style="padding: 300px;"></div>
+</div>
+
+  <div id="map" style="padding:  300px;"></div>
+
+</div>
+
+<!--US 2.2 line chart-->
+<div class="container" style="margin-top: 30px">
+    <select id="industrySelector" multiple size="5" style="display: none;">
+        <!-- auto??? industry options, haven't realize have this function when doing map! -->
+    </select>
+    
+    
+    <h2>Industry Demand over Time</h2>
+    <div style="margin-top: 100px" >
+
+<button id="loadLineChart" style="height: 40px"； onclick="fetchDataAndDrawLineChart()">Load Graph</button>
+<canvas id="lineChart" style="width: 1200px; height: 600px;"></canvas>
+</div>
+</div>  
+<a href="index.html" class="button">Back to homepage</a>
+</body>
+
+
+<script src="searchjob.js"></script>
+<script src="map.js"></script>
+<script src="linechart.js"></script>
+<script src="jobRecommendation.js"></script>
+</html>

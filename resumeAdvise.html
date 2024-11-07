@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Advice Tool</title>
+    <script src="resumeAdvice.js" defer></script>
+</head>
+
+<body>
+    <div>
+        <h2>Enter Your Resume Information</h2>
+        <form id="resumeForm">
+            <label for="anzsco_code">ANZSCO Code:</label>
+            <div id="anzsco_code"></div>
+            <br><br>
+
+            <label for="experience">Experience:</label>
+            <input type="text" id="experience" value="5 years in marketing">
+            <br><br>
+
+            <label for="interests">Interests:</label>
+            <input type="text" id="interests" value="Digital marketing, SEO">
+            <br><br>
+
+            <label for="skills">Skills:</label>
+            <input type="text" id="skills" value="Python, Google Analytics">
+            <br><br>
+
+            <button type="button" onclick="fetchResumeAdvice()">Get Resume Advice</button>
+            <button type="button" onclick="fetchsynthesiseResume()">Synthesise Resume</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Resume Advice:</h2>
+        <pre id="adviceOutput"></pre>
+    </div>
+
+    <div>
+        <h2>Synthesised Resume:</h2>
+        <pre id="synthesisedOutput"></pre>
+    </div>
+    <a href="find-jobs.html" class="analyse_link">Change Job</a>
+
+</body>
+
+</html>

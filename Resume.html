@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+    <link rel="stylesheet" type="text/css" href="Resume.css" />
+    <script src="resumeAdvice.js" defer></script>
+    <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/sticky-js@1.3.0/dist/sticky.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/headroom.js@0.12.0/dist/headroom.min.js"></script>
+  </head>
+
+  <!-- Welcome page -->
+  <body class="flex-column">
+    <main class="untitled-page main">
+      <section class="section1">
+        <!-- Menu -->
+        <div class="flex_row">
+          <h5 class="highlight3">Home</h5>
+          <h5 class="highlight31" onclick="window.location.href='job-location-demand.html'">Job Location & Demand</h5>
+          <h5 class="highlight31" onclick="window.location.href='Resume.html'">Resume Builder</h5>
+          <h5 class="highlight33">About us</h5>
+        </div>
+        <!-- Welcome content -->
+        <h1 class="hero_title3_box">
+          <span class="hero_title3">
+            <span class="hero_title3_span0">Achieve Career Excellence<br /></span>
+            <span class="hero_title3_span2">Optimize Your Resume and Boost Your Job Match Rate</span>
+          </span>
+        </h1>
+      </section>
+
+      <!-- Career Features Explaination area -->
+      <section class="section2">
+        <div class="flex_col">
+          <h3 class="subtitle">CARE FEATURES</h3>
+          <h1 class="hero_title2">Awesome Service With Our Resume Tools</h1>
+          <!-- 3 blocks -->
+          <div class="flex_row1">
+            <!-- Resume Editing block -->
+            <div class="flex_col1">
+              <h1 class="title">Resume Editing</h1>
+              <h4 class="highlight2">
+                Our Resume Editing tool is uniquely tailored to you. By inputting your interests, skills, and career
+                objectives
+              </h4>
+            </div>
+            <!-- Intelligent Analysis block -->
+            <div class="flex_col2">
+              <h1 class="title">Intelligent Analysis</h1>
+              <h4 class="highlight21">
+                We&#x27;ll provide insights into your strengths and potential areas for improvement, enabling you to
+                create a resume that&#x27;s truly compelling and effective.
+              </h4>
+            </div>
+            <!-- Job Match Optimization block -->
+            <div class="flex_col3">
+              <h1 class="title">Job Match Optimization</h1>
+              <h4 class="highlight22">
+                By analyzing the specific job descriptions you&#x27;re interested in, our AI-driven tool tailors your
+                resume to meet those criteria.
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 'WHO WE ARE' section, display more explaination about us site -->
+      <section class="section3">
+        <div class="flex_row2">
+          <!-- Image -->
+          <img class="image1" src="./public/Resume-image.png" alt="alt text" />
+          <!-- Text content area -->
+          <div class="flex_col4">
+            <!-- Title -->
+            <h3 class="subtitle1">Who We Are</h3>
+            <!-- Sub title -->
+            <h1 class="hero_title1">Dreaming of Your Ideal Job? Let&#x27;s Make It a Reality.</h1>
+            <!-- Content -->
+            <h5 class="highlight1">
+              Unlock your career potential with our AI-driven resume services. Input your skills, interests, and job
+              goals, and we&#x27;ll provide personalized guidance through Resume Editing, Intelligent Analysis, and Job
+              Match Optimization. Create a compelling, tailor-made resume that maximizes your chances of landing your
+              dream job.
+            </h5>
+          </div>
+        </div>
+      </section>
+
+      <!-- User input section -->
+      <section class="section4">
+        <div class="flex_row3">
+          <div class="flex_col5">
+            <h1 class="hero_title_box">
+              <span class="hero_title"
+                >
+                <!-- Ttitle -->
+                <span class="hero_title_span0">Tell Us About Yourself<br /></span>
+                <!-- Sub title -->
+                <span class="hero_title_span1"
+                  ><br />Your career journey begins with a single step. Fill in your details, skills, and aspirations so
+                  we can tailor our AI-driven recommendations to help you land your dream job.</span>
+                  <!-- ANZ CODE Display area -->
+                  <br></br>
+                  <h2 class="ANZ_CODE">ANZ CODE</h2>
+                  <span id="anzsco_code" class="ANZ_CODE">1234</span>
+                </span>
+            </h1>
+
+            <!-- 3 User input box -->
+            <div class="box">
+              <input id="experience" type="text" class="highlight" placeholder="Experience..." value="5 years in marketing">
+            </div>
+            <div class="box">
+              <input id="interests" type="text" class="highlight" placeholder="Interest..." value="Digital marketing, SEO">
+            </div>
+            <div class="box">
+              <input id="skills" type="text" class="highlight" placeholder="Skills..." value="Python, Google Analytics">
+            </div>
+            
+          <div class="btn-container">
+            <button class="custom-btn" onclick="fetchResumeAdvice()">Get Resume Advice</button>
+            <button class="custom-btn" onclick="fetchsynthesiseResume()">Synthesise Resume</button>
+            
+            
+          </div>
+          <a href="find-jobs.html" class="analyse_link">Change Job</a>
+          </div>
+
+          <!-- Result display area -->
+          <div class="content_box">
+            <h2 class="medium_title_box">
+              <span class="medium_title">
+                <span class="medium_title_span0">Intelligent Analysis:<br /><br /></span
+                > <!-- User Strength -->
+                <span class="medium_title_span1">Advise of your resume:<br /></span
+                ><span class="medium_title_span2" 
+                  ><pre id="adviceOutput">N/A</pre><br /><br /></span
+                >
+                <br>
+                <!-- Areas for Improvement -->
+                <span class="medium_title_span3">Synthesised Resume:<br /></span
+                ><span class="medium_title_span4"
+                  ><pre id="synthesisedOutput">N/A</pre><br /><br /></span
+                ><br><!-- Suggested Skills to Highlight -->
+                <span class="medium_title_span5"><br /></span
+                ><span class="medium_title_span6"
+                  ></span
+                ></span
+              >
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer  -->
+      <section class="section5">
+        <div class="flex_col6">
+          <div class="flex_row4">
+            <div class="flex_col7">
+              <div class="text">offices</div>
+              <div class="text1">120 A&#x27;Beckett St, Melbourne VIC 3000</div>
+            </div>
+            <div class="flex_col8">
+              <div class="text2">CONTACT</div>
+              <div class="text1">+61 123 456 789</div>
+            </div>
+            <div class="flex_col7">
+              <div class="text">ABOUT</div>
+              <div class="text1">Support</div>
+            </div>
+          </div>
+          <div class="text11">info@ecobytes.com</div>
+          <img class="image" src="./public/footer.png" alt="alt text" />
+          <div class="info">All rights reserved. © 2023.</div>
+          <div class="flex_row5">
+            <div class="info1">Privacy &amp; terms</div>
+            <div class="info1">Terms of Service</div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <script type="text/javascript">
+      AOS.init();
+      new Sticky('.sticky-effect');
+    </script>
+  </body>
+</html>

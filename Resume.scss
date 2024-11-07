@@ -1,0 +1,544 @@
+@use "ResumeUTils" as *;
+@use "global" as *;
+
+$color_type_0: rgb(0, 0, 0);
+$color_type_1: rgb(148, 148, 148);
+$color_type_2: rgb(152, 162, 179);
+$color_type_3: rgb(245, 76, 30);
+$color_type_4: rgb(255, 255, 255);
+$color_type_5: rgb(3, 19, 51);
+$color_type_6: rgb(49, 49, 49);
+
+$bg_color_type_0: rgb(0, 0, 0);
+$bg_color_type_1: rgb(184, 181, 190);
+$bg_color_type_2: rgb(222, 226, 226);
+$bg_color_type_3: rgb(249, 250, 251);
+$bg_color_type_4: rgb(255, 255, 255);
+
+$padding_type_0: undefinedpx undefinedpx undefinedpx undefinedpx;
+
+$border_radius_type_0: 35px 35px 35px 35px;
+$border_radius_type_1: 8px 8px 8px 8px;
+
+$font_type_0: 700 54px/1.6 "Poppins", Helvetica, Arial, serif;
+$font_type_1: 600 40px/1.39 "Poppins", Helvetica, Arial, serif;
+$font_type_2: 700 40px/0.6 "Poppins", Helvetica, Arial, serif;
+$font_type_3: 600 38px/1.39 "Poppins", Helvetica, Arial, serif;
+$font_type_4: 500 28px/1 "Poppins", Helvetica, Arial, serif;
+$font_type_5: 700 24px/1 "Poppins", Helvetica, Arial, serif;
+$font_type_6: 500 20px/1 "Poppins", Helvetica, Arial, serif;
+$font_type_7: 400 18px/1.6 "Poppins", Helvetica, Arial, serif;
+$font_type_8: 400 16px/1.6 "Poppins", Helvetica, Arial, serif;
+$font_type_9: 500 16px/1.5 "Spartan", Helvetica, Arial, serif;
+$font_type_10: 400 16px/1.5 "Inter", Helvetica, Arial, serif;
+$font_type_11: 700 14px/1.42 "Spartan", Helvetica, Arial, serif;
+$font_type_12: 500 14px/1.42 "Spartan", Helvetica, Arial, serif;
+$font_type_13: 600 14px/1.42 "Spartan", Helvetica, Arial, serif;
+$font_type_14: 500 12px/1.33 "Spartan", Helvetica, Arial, serif;
+$font_type_15: 700 1em/1.6 "Poppins", Helvetica, Arial, serif;
+$font_type_16: 0.2962962962962963em/1.6 "Poppins", Helvetica, Arial, serif;
+$font_type_17: 600 0.2962962962962963em/1.6 "Poppins", Helvetica, Arial, serif;
+$font_type_18: 700 1em/0.6 "Poppins", Helvetica, Arial, serif;
+$font_type_19: 0.4em/1.5 "Poppins", Helvetica, Arial, serif;
+$font_type_20: 700 1em/1 "Poppins", Helvetica, Arial, serif;
+$font_type_21: 700 0.6666666666666666em/1.5 "Poppins", Helvetica, Arial, serif;
+$font_type_22: 500 0.6666666666666666em/1.5 "Spartan", Helvetica, Arial, serif;
+$font_type_23: 700 0.6666666666666666em/1.5 "Spartan", Helvetica, Arial, serif;
+
+.untitled-page {
+  &.main {
+    background-color: $bg_color_type_4;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: $padding_type_0;
+    position: relative;
+  }
+  .section1 {
+    background-color: $bg_color_type_1;
+    display: flex;
+    flex-direction: column;
+    min-height: 714px;
+    position: relative;
+  }
+  .flex_row {
+    display: flex;
+    gap: 0px 20px;
+    height: 24px;
+    position: absolute;
+    right: 3.18%;
+    top: 40px;
+    width: 525px;
+  }
+  .highlight3 {
+    color: $color_type_0;
+    display: flex;
+    font: $font_type_9;
+    justify-content: center;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 52px;
+  }
+  .highlight31 {
+    color: $color_type_0;
+    display: flex;
+    font: $font_type_9;
+    justify-content: center;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 207px;
+  }
+  .highlight32 {
+    color: $color_type_0;
+    display: flex;
+    font: $font_type_9;
+    justify-content: center;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 131px;
+  }
+  .highlight33 {
+    color: $color_type_0;
+    display: flex;
+    font: $font_type_9;
+    justify-content: center;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 75px;
+  }
+  .hero_title3_box {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    margin: 297px auto 157px;
+    width: 32.46%;
+  }
+  .hero_title3 {
+    color: $color_type_0;
+    font: $font_type_0;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .hero_title3_span0 {
+    font: $font_type_15;
+  }
+  .hero_title3_span1 {
+    font: $font_type_16;
+  }
+  .hero_title3_span2 {
+    font: $font_type_17;
+  }
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    min-height: 715px;
+    position: relative;
+  }
+  .flex_col {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 110px auto 140px;
+    position: relative;
+    width: 50.86%;
+  }
+  .subtitle {
+    color: $color_type_3;
+    display: flex;
+    font: $font_type_6;
+    justify-content: flex-end;
+    letter-spacing: 3.9px;
+    margin: 0px auto;
+    text-align: right;
+    width: 18.26%;
+    @include xxxl {
+      justify-content: center;
+      text-align: center;
+    }
+    @include lg {
+      aspect-ratio: auto;
+    }
+  }
+  .hero_title2 {
+    color: $color_type_5;
+    display: flex;
+    font: $font_type_3;
+    justify-content: center;
+    letter-spacing: 0px;
+    margin: 76px auto 0px;
+    text-align: center;
+    width: 56.26%;
+  }
+  .flex_row1 {
+    display: flex;
+    gap: 0px 110px;
+    margin: 75px auto 0px;
+    position: relative;
+    width: 80%;
+    @include xxl {
+      flex-wrap: wrap;
+      gap: 16px 110px;
+    }
+  }
+  .flex_col1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0px;
+    margin: 0px 0px 28px;
+    position: relative;
+    width: 293px;
+    @include xxl {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+  .title {
+    color: $color_type_5;
+    display: flex;
+    font: $font_type_4;
+    letter-spacing: 0px;
+    margin: 0px auto;
+    @include xxxl {
+      justify-content: center;
+      text-align: center;
+    }
+    @include xl {
+      aspect-ratio: auto;
+    }
+  }
+  .highlight2 {
+    color: $color_type_1;
+    display: flex;
+    font: $font_type_7;
+    justify-content: center;
+    letter-spacing: 0px;
+    margin: 0px auto;
+    text-align: center;
+    @include sm {
+      aspect-ratio: auto;
+    }
+  }
+  .flex_col2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0px;
+    position: relative;
+    width: 293px;
+    @include xxl {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+  .highlight21 {
+    color: $color_type_1;
+    display: flex;
+    font: $font_type_7;
+    justify-content: center;
+    letter-spacing: 0px;
+    margin: 0px auto;
+    text-align: center;
+    @include xs {
+      aspect-ratio: auto;
+    }
+  }
+  .flex_col3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0px;
+    margin: 0px 0px 28px;
+    position: relative;
+    width: 344px;
+    @include xxl {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+  .highlight22 {
+    color: $color_type_1;
+    display: flex;
+    font: $font_type_7;
+    justify-content: center;
+    letter-spacing: 0px;
+    margin: 0px auto;
+    text-align: center;
+    width: 85.17%;
+    @include xl {
+      aspect-ratio: auto;
+    }
+  }
+  .section3 {
+    background-color: $bg_color_type_2;
+    display: flex;
+    flex-direction: column;
+    min-height: 487px;
+    position: relative;
+  }
+  .flex_row2 {
+    display: flex;
+    flex-grow: 1;
+    gap: 0px 186px;
+    margin: 31px auto 32px;
+    position: relative;
+    width: 51.08%;
+    @include xxl {
+      flex-wrap: wrap;
+      gap: 16px 186px;
+    }
+  }
+  .image1 {
+    min-height: 424px;
+    object-fit: cover;
+    width: 381px;
+    @include xxl {
+      aspect-ratio: auto;
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+  .flex_col4 {
+    display: flex;
+    flex-direction: column;
+    gap: 28px 0px;
+    margin: 26px 0px 56px;
+    position: relative;
+    width: 588px;
+    @include xxl {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+  .subtitle1 {
+    color: $color_type_3;
+    font: $font_type_6;
+    letter-spacing: 3.8px;
+  }
+  .hero_title1 {
+    color: $color_type_5;
+    font: $font_type_1;
+    letter-spacing: 0px;
+  }
+  .highlight1 {
+    color: $color_type_6;
+    font: $font_type_8;
+    letter-spacing: 0px;
+    margin: 0px auto 0px 0px;
+    width: 85.54%;
+  }
+  .section4 {
+    display: flex;
+    flex-direction: column;
+    min-height: 932px;
+    position: relative;
+  }
+  .flex_row3 {
+    display: flex;
+    flex-grow: 1;
+    gap: 0px 90px;
+    margin: 185px 20.34% 84px 23.97%;
+    position: relative;
+    width: 55.68%;
+    @include xxl {
+      flex-wrap: wrap;
+      gap: 16px 90px;
+    }
+    @include lg {
+      gap: 0px 90px;
+    }
+  }
+  .flex_col5 {
+    display: flex;
+    flex-direction: column;
+    gap: 11px 0px;
+    margin: 118px 0px 209px;
+    position: relative;
+    width: 481px;
+    @include xxl {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+  .hero_title_box {
+    display: flex;
+    justify-content: center;
+  }
+  .hero_title {
+    color: $color_type_0;
+    font: $font_type_2;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .hero_title_span0 {
+    font: $font_type_18;
+  }
+  .hero_title_span1 {
+    font: $font_type_19;
+  }
+  .box {
+    background-color: $bg_color_type_3;
+    border-radius: $border_radius_type_1;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.047);
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    outline: 1px solid rgb(208, 213, 221);
+    outline-offset: -1px;
+    overflow: hidden;
+    position: relative;
+    width: 66.53%;
+  }
+  .highlight {
+    color: $color_type_2;
+    flex-grow: 1;
+    font: $font_type_10;
+    height: 24px;
+    letter-spacing: 0px;
+    margin: 8px 12px;
+    width: 296px;
+    border: none;
+  }
+  .content_box {
+    border-radius: $border_radius_type_0;
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid rgb(252, 98, 28);
+    outline-offset: -1px;
+    position: relative;
+    width: 688px;
+    @include xxl {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+  .medium_title_box {
+    flex-grow: 1;
+    margin: 41px 22px 61px 40px;
+  }
+  .medium_title {
+    color: $color_type_0;
+    font: $font_type_5;
+    letter-spacing: 0px;
+  }
+  .medium_title_span0 {
+    font: $font_type_20;
+  }
+  .medium_title_span1 {
+    font: $font_type_21;
+  }
+  .medium_title_span2 {
+    font: $font_type_22;
+  }
+  .medium_title_span3 {
+    font: $font_type_21;
+  }
+  .medium_title_span4 {
+    font: $font_type_22;
+  }
+  .medium_title_span5 {
+    font: $font_type_23;
+  }
+  .medium_title_span6 {
+    font: $font_type_22;
+  }
+  .section5 {
+    background-color: $bg_color_type_0;
+    display: flex;
+    flex-direction: column;
+    min-height: 472px;
+    position: relative;
+  }
+  .flex_col6 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 59px auto 98px;
+    position: relative;
+    width: 86.55%;
+    @include xs {
+      aspect-ratio: auto;
+    }
+  }
+  .flex_row4 {
+    display: flex;
+    gap: 0px 12px;
+    position: relative;
+  }
+  .flex_col7 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px 0px;
+    position: relative;
+    width: 644px;
+  }
+  .text {
+    color: $color_type_4;
+    display: flex;
+    font: $font_type_11;
+    justify-content: center;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .text1 {
+    color: $color_type_4;
+    display: flex;
+    font: $font_type_12;
+    justify-content: center;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .flex_col8 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px 0px;
+    position: relative;
+    width: 645px;
+  }
+  .text2 {
+    color: $color_type_4;
+    display: flex;
+    font: $font_type_13;
+    justify-content: center;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .text11 {
+    color: $color_type_4;
+    display: flex;
+    font: $font_type_12;
+    justify-content: center;
+    letter-spacing: 0px;
+    margin: 8px 0px 0px;
+    text-align: center;
+  }
+  .image {
+    margin: 73px auto 0px;
+    min-height: 38px;
+    object-fit: cover;
+    width: 58.05%;
+  }
+  .info {
+    color: $color_type_4;
+    display: flex;
+    font: $font_type_14;
+    justify-content: center;
+    letter-spacing: 0px;
+    margin: 64px auto 0px;
+    text-align: center;
+    width: 58.05%;
+  }
+  .flex_row5 {
+    display: flex;
+    gap: 0px 32px;
+    margin: 8px auto 0px;
+    position: relative;
+    width: 14.31%;
+  }
+  .info1 {
+    color: $color_type_4;
+    display: flex;
+    font: $font_type_14;
+    justify-content: center;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 124px;
+  }
+}

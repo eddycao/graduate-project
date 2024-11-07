@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  width: 100%;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-size-extra-small-16-line-height-medium: Spartan;
+  --font-inter: Inter;
+  --font-dm-sans: "DM Sans";
+  --font-outfit: Outfit;
+
+  /* font sizes */
+  --font-size-normal-medium-size: 16px;
+  --font-size-extra-small-16-line-height-medium-size: 12px;
+  --font-size-small-medium-size: 14px;
+  --heading-5-semi-bold-size: 20px;
+  --font-size-13xl: 32px;
+  --font-size-lg: 18px;
+  --font-size-31xl: 50px;
+  --font-size-11xl: 30px;
+
+  /* Colors */
+  --white-100: #fff;
+  --color-tomato: #ff4343;
+  --color-gray-100: #28293a;
+  --gray-900: #212529;
+  --color-gray-200: #0d0d0d;
+  --secondary-100: #5a6c90;
+  --color-darkslategray-100: #445458;
+  --color-darkslategray-200: #434545;
+  --color-darkslategray-300: #39364e;
+  --color-darkslategray-400: #1e2e50;
+  --dark-80: rgba(30, 46, 80, 0.8);
+  --color-black: #000;
+  --dark-blue-100: #1f2c73;
+  --color-darkgray-100: #9b9fab;
+  --pastel-primary: #e4f0ff;
+  --sky-60: rgba(233, 244, 255, 0.6);
+  --color-whitesmoke-100: #f6f9fc;
+  --info-100: #18b7ff;
+  --primary-100: #2083fe;
+  --color-mediumseagreen-100: #12aa73;
+  --color-mediumseagreen-200: rgba(18, 170, 115, 0.18);
+  --paragraph: #696969;
+  --color-dimgray-100: #53595f;
+  --color-crimson: #df2020;
+  --color-gainsboro-100: #e8e8e8;
+  --color-lightgray: #dad1c3;
+
+  /* Gaps */
+  --gap-13xl: 32px;
+  --gap-6xl: 25px;
+  --gap-5xl: 24px;
+  --gap-base: 16px;
+  --gap-xs: 12px;
+  --gap-45xl: 64px;
+  --gap-5xs: 8px;
+  --gap-sm: 14px;
+  --gap-21xl: 40px;
+
+  /* Paddings */
+  --padding-109xl: 128px;
+  --padding-133xl: 152px;
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+  --padding-49xl: 68px;
+  --padding-xl: 20px;
+  --padding-9xs: 4px;
+
+  /* border radiuses */
+  --br-9xs: 4px;
+  --br-10xl: 29px;
+  --br-19xl: 38px;
+  --br-8xs: 5px;
+  --br-11xl: 30px;
+  --br-xl: 20px;
+  --br-12xs: 1px;
+  --br-56xl: 75px;
+
+  /* Effects */
+  --shadow-regular: 0px 8px 20px rgba(35, 38, 45, 0.13);
+}
